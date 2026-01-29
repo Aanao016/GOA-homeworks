@@ -1,0 +1,35 @@
+p {
+    font-size: 50px; 
+    border: 3px solid green;
+    color: yellow;           
+    text-align: center;      
+    margin: 10px;
+}
+
+button {
+    width: 100px;         
+    height: 60px;         
+    background-color: red; 
+    color: yellow;        
+    border: none;        
+     margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+       
+div ul {
+    color: red;
+    font-size: 35px;
+    border: 2px solid green;
+    background-color: blue;
+     margin: 5px;
+}
+
+
+nav li {
+    color: brown;
+    font-size: 50px;
+    border: 2px solid purple;
+    background-color: yellow;
+    margin: 5px;
+}

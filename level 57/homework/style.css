@@ -1,0 +1,57 @@
+.first-div {
+    font-size: 38px;
+    color: blue;
+    background-color: green;
+    border: 3px solid red;
+    text-align: center;
+}
+
+.second-div {
+    font-size: 46px;
+    color: purple;
+    background-color: brown;
+    border: 7px solid yellow;
+    text-align: center;
+}
+
+
+.first_ol_div {
+    font-size: 27px;
+    color: yellow;
+    background-color: pink;
+    border: 5px solid black;
+
+}
+
+.second_ul_div {
+    font-size: 36px;
+    color: green;
+    background-color: red;
+    border: 8px solid brown;
+}
+
+
+.container {
+    font-size: 57px;
+    color: yellow;
+    background-color: orange;
+    border: 5px solid green;
+}
+
+.h3_ {
+    font-size: 20px;
+    color: pink;
+    background-color: red;
+    border: 2px solid yellow;
+}  
+        
+
+        
+
+.paraghrap_3 {
+    font-size: 20px;
+    color: pink;
+    background-color: red;
+    border: 2px solid yellow;   
+}      
+   
