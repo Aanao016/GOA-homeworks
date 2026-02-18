@@ -1,0 +1,54 @@
+/* Body ფერი RGB */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(240, 248, 255); /* ალისფერი ფონით */
+  color: #333333; /* HEX */
+  margin: 0;
+}
+
+/* Header სტილი */
+header {
+  background-color: #1e90ff; /* HEX */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #ffeb3b; /* HEX */
+}
+
+/* Section სტილი */
+section {
+  padding: 20px;
+  margin: 10px;
+  border-left: 5px solid rgb(255, 140, 0); /* ნარინჯისფერი, RGB */
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+/* Footer სტილი */
+footer {
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Specificity მაგალითი */
+.text {
+  color: green;
+}
+
+#unique {
+  color: red; /* ID-ზე მაღალსპეციფიკურია */
+}

@@ -1,0 +1,167 @@
+.p1{
+    font-size: 25px;
+    color: blue;
+    background-color: red;
+    border: 4px solid green;
+
+}
+
+.p2{
+    font-size: 45px;
+    color: green;
+    text-align: center;
+    background-color: yellow;
+    border: 7px solid purple;
+}
+
+.p3 {
+    font-size: 14px;
+    color: orange;
+    background-color: blue;
+    text-align: right;
+    border: 2px solid pink;
+}
+
+#lo_ve1 {
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+    background-color: red;
+    border: 3px;
+    border-radius: 5px;
+}
+
+#lo_ve2 {
+text-align: right;
+font-size: 40px;
+color: rgb(68, 90, 36);
+background-color: aquamarine;
+border: none;
+border-radius: 4px;
+}
+ 
+
+#lo_ve3 {
+text-align: left;
+font-size: 30px;
+color: rgb(119, 37, 37);
+background-color:gold;
+border: none;
+border-radius: 5px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.t1 { 
+    color:red; 
+}
+.t2 {
+     color:blue; 
+}
+.t3 {
+     color:green; 
+}
+.t4 {
+     color:purple; 
+}
+.t5 {
+     color:orange; 
+}
+.t6 {
+     background:yellow;  
+}
+.t7 {
+    background:lightblue;  
+}
+.t8 { 
+    border:2px solid black;  
+}
+.t9 {
+     font-style:italic; 
+}
+.t10 {
+     text-decoration:underline; 
+}
+
+#p1 { color:red; }
+#p2 { color:blue; }
+#p3 { color:green; }
+#p4 { background:yellow; }
+#p5 { background:pink; }
+#p6 { font-size:20px; }
+#p7 { border:2px solid black; }
+#p8 { text-align:center; }
+#p9 { font-style:italic; }
+#p10 { text-decoration:underline; }
+
+
+#box1 {
+    background:lightgray;
+    padding:15px;
+}
+
+#box2 {
+    background:lightgreen;
+    padding:15px;
+}
+
+#section6 {
+    text-align:center;
+}
+
+.pinkText {
+    color:pink;
+    font-size:30px;
+    background:blue;
+    border:4px solid green;
+}
+
+#section6 button {
+    padding:10px;
+    margin:5px;
+}
+
+
+.p1 {
+    color:red;
+    font-size:25px;
+}
+
+.first {
+    background:yellow;
+    border:3px solid black;
+}
+
+
+.para {
+    color:blue;
+}
+
+#h1 { color:red; }
+#h2 { color:green; }
+#h3 { color:blue; }
+#h4 { color:purple; }
+#h5 { color:orange; }
+
+#section8 button {
+    background:black;
+    color:white;
+    margin:5px;
+}
+
+.hobby1 {
+    color:red;
+    font-weight:bold;
+}
+
+.hobby2 {
+    color:blue;
+    font-style:italic;
+}

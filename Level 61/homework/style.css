@@ -1,0 +1,116 @@
+#myDiv {
+    background-color: lightblue;
+    color: darkblue;
+    border: 2px solid navy;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#content h2 {
+    color: darkred;
+}
+
+#specialTitle {
+    color: green;
+    font-size: 36px;
+}
+
+#firstBox {
+    background-color: pink;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#secondBox {
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#car1 {
+    color: red; 
+    font-weight: bold; 
+}
+#car2 {
+    color: blue;
+    font-style: italic; 
+}
+#car3 {
+    color: green; 
+    text-decoration: underline; 
+}
+#car4 {
+    color: orange;
+    font-size: 20px; 
+}
+#car5 {
+    color: purple; 
+    background-color: yellow; 
+}
+
+#country1 { 
+    color: red;
+    background-color: lightyellow; 
+}
+#country2 { 
+    color: blue;
+    background-color: lightgray; 
+}
+#country3 { 
+    color: green;
+     background-color: lightpink;
+}
+#country4 { 
+    color: orange; 
+    background-color: lightblue; 
+}
+#country5 { 
+    color: purple; 
+    background-color: lightgreen; 
+}
+
+#buttonDiv1 {
+    background-color: lightcoral;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#buttonDiv1 button {
+    background-color: darkred;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+#buttonDiv2 {
+    background-color: lightseagreen;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;    
+}
+
+#buttonDiv2 button {
+    background-color: darkcyan;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+#buttonDiv3 {
+    background-color: lightgoldenrodyellow;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#buttonDiv3 button {
+    background-color: goldenrod;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}

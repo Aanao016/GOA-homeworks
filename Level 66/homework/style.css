@@ -1,0 +1,132 @@
+
+body {
+    background-color: rgb(240,240,240);
+    font-family: Arial;
+}
+
+/* 1 */
+.boxClass {
+    color:#FFFFFF;
+    background-color:#333399;
+    font-size:20px;
+    border:3px solid #FF9900;
+    text-align:center;
+    margin:20px auto;
+    width:300px;
+}
+
+#boxId {
+    color:#000000;
+    background-color:#FFCCCC;
+}
+
+/* 2 */
+#pId {
+    color:#0000FF;
+    background:#FFFF00;
+    font-size:22px;
+    border:4px dashed #000000;
+    text-align:center;
+}
+
+.pClass {
+    color:#FF0000;
+    background:#00FF00;
+    font-size:18px;
+    border:2px solid #990099;
+}
+
+/* 3 */
+.parentDiv {
+    background:#222222;
+    color:#FFFFFF; /* inheritance */
+    padding:15px;
+}
+
+.childP {
+    background:#FFFFFF;
+    color:#000000;
+}
+
+/* 4 */
+.secClass {
+    background:#999999;
+    padding:20px;
+}
+
+#secId {
+    background:#0000FF;
+}
+
+/* 5 */
+.btnParent {
+    background:#00FFCC;
+    padding:20px;
+}
+
+.btnClass {
+    background:#FFFF00;
+    color:#0000FF;
+    padding:10px;
+}
+
+#btnId {
+    background:#FF0000;
+    color:#FFFFFF;
+}
+
+/* 6 */
+.container6 {
+    background:#EEEEEE;
+    padding:20px;
+}
+
+h2 {
+    background:#00FF00;
+}
+
+.hClass {
+    border:3px solid #000000;
+}
+
+#hOne {
+    background:#FFCCCC;
+}
+
+#hTwo {
+    background:#CCCCFF;
+}
+
+.pSix {
+    color:#333333;
+}
+
+#pOne {
+    border:5px solid #FF0000;
+}
+
+#pTwo {
+    background:#00FFFF;
+}
+
+/* 7 */
+.pengClass {
+    background:#F0F8FF;
+    padding:20px;
+}
+
+#species {
+    background:#FFEEEE;
+}
+
+#count {
+    background:#EEFFEE;
+}
+
+.listClass {
+    border:3px solid #000000;
+}
+
+.listClass2 {
+    border:3px dashed #FF0000;
+}

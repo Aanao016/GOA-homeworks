@@ -1,0 +1,13 @@
+.button_ {
+    font-size: 40px;
+    color: red;
+    background-color: green;
+    border:3px solid purple;
+}
+
+.button_1 {
+    font-size: 20 px;
+    color: orange;
+    background-color:purple ;
+    border: none;
+}
