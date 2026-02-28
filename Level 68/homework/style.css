@@ -1,0 +1,48 @@
+p {
+    text-transform: uppercase;
+}
+
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+#p1{
+    text-shadow:2px 2px 5px green;
+}
+
+#p2{
+    color: pink;
+    text-shadow: 2px 2px 5px purple;
+}
+
+#p3{
+    color: blue;
+    text-shadow: 2px 2px 5px pink;
+}
+
+#p4{
+    text-shadow: 2px 2px 5px pink;
+}
+
+#p5{
+    color: green;
+    text-shadow: 2px 2px 5px pink;
+}
