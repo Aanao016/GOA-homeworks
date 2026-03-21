@@ -1,0 +1,27 @@
+a {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+    background-color: yellow;
+}
+
+a:visited {
+    color: blue;
+    background-color: pink;
+}
+
+a:hover {
+    color: white;
+    background-color: green;
+}
+
+a:active {
+    color: black;
+    background-color: orange;
+}
