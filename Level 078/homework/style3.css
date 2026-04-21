@@ -1,0 +1,33 @@
+.for2 {
+  display: block;
+  width: 250px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  outline: none;
+  color: #888;
+}
+
+.login_{
+  background-color: #ff69b4; 
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.login_:hover {
+  background-color: #ff4da6;
+}
+
+.login-box {
+  border: 2px solid #5bc0de;
+  padding: 30px;
+  width: 320px;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}

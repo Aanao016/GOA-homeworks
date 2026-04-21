@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="child"></div>
+        <div class="child" class="child1"></div>
+        <div class="child"></div>
+    </div>
+
+    <div class="main2">
+        <div class="child"></div>
+        <div class="child" class="child1"></div>
+        <div class="child"></div>
+    </div>
+
+    <div class="main3">
+        <div class="child"></div>
+        <div class="child" class="child1"></div>
+        <div class="child"></div>
+    </div>
+<!-- 4)ახსენით თუ რა კუთვნილებები ვისწავლეთ flex თან დაკავშირებით x ღერძზე ელემენტების განლაგების დროს,განმარტე თითოეული მათგანი -->
+<!-- flex-start  ელემენტები იწყება მარცხნიდან
+flex-end  ელემენტები მიდის მარჯვნივ
+center  ელემენტები შუაში
+space-between  შორს შორს (პირველი მარცხნივ, ბოლო მარჯვნივ)
+space-around  გარშემო სივრცით
+space-evenly  თანაბარი დაშორება -->
+<!-- 5)კომენტატის სახით ახსენით თუ რა არის gap  -->
+
+<!-- gap გამოიყენება flex ელემენტებს შორის დაშორებისთვის -->
+
+<!-- 6)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი. -->
+<!-- ელემენტები განათავსე მარჯვენა მხარეს. -->
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+
+<!-- 7)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი. -->
+<!-- ელემენტები განათავსე ცენტრში. ორივე ღერძზე -->
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+<!-- 8)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი. -->
+<!-- ელემენტები განათავსე ქვემოთ მარჯვენა კითხეში. -->
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+<!-- 9)შექმენით მშობელი ელემენტი მიეცით ზომები და ფერი,შენი დავალებაა ამ მშობელ ელემენტშ ჩჩაამატო  4 ფოტო რომლებიც  განლაგებულნი იქნებიან ვერტიკალურად ,  იქნებიან სრულიად მშობელი ელემენტის ცენტრში და დააშორე ეს ფოტოები ერთმანეთს 40px ით -->
+<div class="parent">
+  <img src="./Sanrio My Melody Pink Arrow--cursor--SweezyCursors..cur">
+  <img src="./Sanrio My Melody Pink Arrow--cursor--SweezyCursors..cur">
+  <img src="./Sanrio My Melody Pink Arrow--cursor--SweezyCursors..cur">
+  <img src="./Sanrio My Melody Pink Arrow--cursor--SweezyCursors..cur">
+</div>
+<!-- 10)შექმენი ერთი დაუნომრავი სია მიეცით ბორდერი,ამ დაუნომრავ სიაში შექმენი რამდენიმე სიის ელემენტი სადაც ეწერება მაგ: home , menu , about us , contact us ..., შენი დავალებაა რომ ეს სიის ელემენტები განალაგო ჰორიზონტალურად მშობელ ელემენტში, მოაშორე bullet ანუ წერტილები და დააშორო ერთმანეთს 50px ით თითეული ელემენტი(გამოგივათ ნავიგაცია რომელსაც მომავალში ბევრჯერ გამოვიყენებთ -->
+<ul class="nav">
+  <li>Home</li>
+  <li>Menu</li>
+  <li>About us</li>
+  <li>Contact us</li>
+</ul>
+<!-- 12) შექმენით ქვემოთ მოცემული ფოტოს ანალოგი ფორმა გამოიყენეთ flex და ნასწავლი მასალა     -->
+<div class="container">
+    <h3>Login To Your Account</h3>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>
+
+<!--  13)კომენტარის სახით ჩამოწერე თუ რა არის flex-wrap და რაში გვეხმარება ის, ასევე ჩამოწერე რა მნიშვენლობები გადაეცემა მას და რომელი მათგანი რაზეა პასუხისმგებელი 
+მოიყვანე სამივეზე თითო მაგალით -->
+
+
+
+<!-- 14)შექმენი კონტეინერი, სადაც არის 8 ბლოკი (div).
+კონტეინერის სიგანე იყოს 400px.
+ბლოკების სიგანე იყოს 120px.
+გააკეთე ისე, რომ ელემენტები გადავიდნენ ახალ ხაზზე საჭიროების შემთხვევაში. -->
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+<!-- 15)გააკეთე 10 ელემენტი ერთ რიგში.
+შემდეგ დაამატე ისეთი სტილი, რომ ეკრანის შემცირებისას ელემენტები ლამაზად გადალაგდნენ რამდენიმე ხაზად. -->
+
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+<!-- 
+16)შექმენი 6 ბლოკი ერთ კონტეინერში, მაგრამ:
+
+კონტეინერს მიეცი პატარა სიგანე მაგ 300px
+
+გამოიყენე ისეთი მნიშვნელობა flex-wrap-ზე, რომ ელემენტები არ გადავიდნენ ახალ ხაზზე ანუ არ შეიფუთნონ მშობელ ელემენტი -->
+
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+
+<!-- 17)გაქვს კონტეინერი (height: 300px).
+შიგნით არის 3 div.
+
+ყველა ელემენტი დალაგებულია align-items: center-ით
+მაგრამ მეორე div უნდა გადავიდეს ზემოთ (container-ის დასაწყისში)
+გამოიყენე მხოლოდ align-self -->
+
+<div class="container">
+  <div class="box"></div>
+  <div class="box second"></div>
+  <div class="box"></div>
+</div>
+
+<!-- 18)გაქვს flex კონტეინერი (height: 400px) 4 ელემენტით.
+
+მოაწყე ისე, რომ:
+
+პირველი ელემენტი იყოს ქვემოთ
+მეორე ელემენტი იყოს ზემოთ
+მესამე ელემენტი იყოს ცენტრში
+მეოთხე დარჩეს default პოზიციაზე
+
+გამოიყენე align-self თითოეულზე ინდივიდუალურად  -->
+
+<div class="container">
+  <div class="box one"></div>
+  <div class="box two"></div>
+  <div class="box three"></div>
+  <div class="box four"></div>
+</div>
+
+</body>
+</html>

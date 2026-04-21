@@ -1,0 +1,222 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color:purple ;
+    color: yellow;
+    border-radius:5px;
+
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color:purple ;
+    color: yellow;
+    border-radius:5px;
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color:purple ;
+    color: yellow;
+    border-radius:5px;
+
+}
+.child {
+    width: 200px;
+    height: 200px;
+    background: wheat;
+    border-radius: 30px;
+}
+
+.child1 {
+    width: 100px;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+.container {
+  width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+
+.container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: flex-end;     
+}
+
+
+.parent {
+  width: 400px;
+  height: 500px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+img {
+  width: 100px;
+}
+
+
+.nav {
+  border: 2px solid black;
+  display: flex;
+  list-style: none; 
+  gap: 50px;
+  padding: 10px;
+}
+
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, button {
+  padding: 10px;
+}
+
+
+
+
+
+.container {
+  width: 400px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 120px;
+  height: 50px;
+  background-color: green;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  width: 80px;
+  height: 50px;
+  background-color: orange;
+}
+
+
+
+
+.container {
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.box {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
+
+
+
+
+
+.container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.second {
+  align-self: flex-start; 
+}
+
+
+
+
+
+
+.container {
+  height: 400px;
+  display: flex;
+  border: 2px solid black;
+  align-items: stretch; 
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: purple;
+}
+
+.one {
+  align-self: flex-end;   
+}
+
+.two {
+  align-self: flex-start; 
+}
+
+.three {
+  align-self: center;     
+}
+
+/* .four {
+  
+} */

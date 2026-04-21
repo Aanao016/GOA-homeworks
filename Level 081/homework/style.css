@@ -1,0 +1,180 @@
+.parent1 {
+  width: 400px;
+  height: 200px;
+  background: gray;
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: center;   
+  align-items: flex-start;  
+}
+
+.parent1 div {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  background: blue;
+}
+
+
+
+.parent2 {
+  width: 500px;
+  height: 250px;
+  background: yellow;
+  border: 2px solid red;
+
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-start;
+  align-items: flex-end;      
+}
+
+.parent2 div {
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+  background: green;
+}
+
+
+.parent3 {
+  width: 300px;
+  height: 400px;
+  background: lightblue;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+}
+
+.parent3 div {
+  padding: 10px;
+  margin: 8px;
+  font-size: 14px;
+  background: orange;
+}
+
+
+
+.parent4 {
+  width: 350px;
+  height: 300px;
+  background: lightgreen;
+  border: 2px solid blue;
+
+  display: flex;
+  flex-direction: column-reverse; 
+  justify-content: flex-start;    
+}
+
+.parent4 div {
+  padding: 12px;
+  margin: 6px;
+  font-size: 16px;
+  background: violet;
+}
+
+
+
+
+.parent5 {
+  width: 300px;
+  height: 300px;
+  background: lightgreen;
+  border: 2px solid blue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+}
+
+.parent5 div {
+  padding: 15px;
+  margin: 30px;
+  font-size: 15px;
+  background: orange;
+}
+
+
+
+.parent6 {
+  width: 450px;
+  height: 220px;
+  background: lightyellow;
+  border: 2px solid red;
+
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: center;     
+  align-items: center;
+}
+
+.parent6 div {
+  padding: 13px;
+  margin: 40px;
+  font-size: 25px;
+  background: green;
+}
+
+
+
+
+.parent7 {
+  width: 300px;
+  height: 350px;
+  background: lightblue;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.parent7 div {
+  padding: 20px;
+  margin: 20px;
+  font-size: 14px;
+  background: orange;
+}
+
+
+.parent8 {
+  width: 350px;
+  height: 300px;
+  background: pink;
+  border: 2px solid blue;
+
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;       
+  align-items: center;
+}
+
+.parent8 div {
+  padding: 30px;
+  margin: 30px;
+  font-size: 16px;
+  background: violet;
+}
+
+
+.parent9 {
+  width: 300px;
+  height: 400px;
+  background: red;
+  border: 2px solid violet;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.parent9 div {
+  padding: 40px;
+  margin: 40px;
+  font-size: 15px;
+  background: skyblue;
+}

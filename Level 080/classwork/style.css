@@ -1,0 +1,59 @@
+/* პირველ ღილაკდ გაუწერე padding ისე რომ დაშორება ქონდეს ზემოდან და ქვემოდან 40px და გვერდებიდან 100px
+
+მეორე ღილაკს გაუწერე padding ისე რომ დაშორება ქონდეს ოთხივე მხრიდან 64px
+
+მესამე ღილაკს გაუწერე padding ისე რომ დაშორება ქონდეს , ზემოდან - 50px ,მარჯვიდან 20px , ქვემოდან 15px ,და მარცხნიდან 70px
+
+მეოთხე ღილაკს გაუწერე padding ისე რომ დაშორება ქონდეს მხოლოდ ზემოდან 45px */
+
+
+#but_1 {
+    padding: 40px 100px ;
+}
+
+#but_2 {
+padding: 64px;
+}
+
+#but_3 {
+    padding: 50px 20px 15px 70px;
+}
+
+#but_4 {
+    padding-top: 45px;
+}
+
+
+#but_5 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-top: 3px solid red;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid green;
+    border-left: 3px solid orange;
+    background-color: white;
+}
+
+
+/* პირველ ღილაკდ გაუწერე margin ისე რომ დაშორება ქონდეს ზემოდან და ქვემოდან 80px და გვერდებიდან 20px
+
+მეორე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს ოთხივე მხრიდან 40px
+
+მესამე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს , ზემოდან - 10px ,მარჯვიდან 60px , ქვემოდან 35px ,და მარცხნიდან 80px
+
+მეოთხე ღილაკს გაუწერე margin ისე რომ დაშორება ქონდეს მხოლოდ ქვემოდან 45px */
+
+#but_6 {
+    margin: 80px 20px;
+}
+
+#but_7 {
+    margin: 40px;
+}
+
+#but_8 {
+    margin: 10px 60px 35px 80px;
+}
+#but_9 {
+    margin-bottom: 45px;
+}

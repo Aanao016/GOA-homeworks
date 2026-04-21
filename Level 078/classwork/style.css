@@ -1,0 +1,23 @@
+form {
+    width: 300px;
+    margin: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color:gray;
+    color: blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    outline: none;
+    font-size: 16px;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
