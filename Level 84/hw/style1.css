@@ -1,0 +1,30 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.conteiner {
+    display: flex;
+    background-color: #00cfd1;
+    padding: 30px;
+    gap: 20px;
+    width: 700px;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    flex:1;
+}
+
+
+.box1{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    flex:4;
+}

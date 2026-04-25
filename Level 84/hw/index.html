@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 1)კომენტარის სახით ახსენით თუ რა არის flex-grow და რას აკეთებს ის,ასევევე რა მნშვნელობები გადაეცემა მას -->
+
+<!-- flex-grow კონტეინერში დარჩენილი თავისუფალი სივრცის ავსებს.-->
+<!-- 2)გაქვს flex container და შიგნით 3 ელემენტი.
+
+ყველა ელემენტს აქვს საწყისი width (მაგ: 100px)
+გააკეთე ისე, რომ მეორე ელემენტმა დაიკავოს დანარჩენი თავისუფალი სივრცე
+
+გამოიყენე flex-grow -->
+
+<div class="container">
+  <div class="container-2">
+    <div class="box">Item 1</div>
+    <div class="box" id="box1">2</div>
+    <div class="box">Item 3</div>
+  </div>
+</div>
+
+<!-- 3)გაქვს navigation bar:
+
+მარცხნივ არის logo <-- რაიმე პატარა ფოტო
+შუაში ნავიგაციის menu
+მარჯვნივ button 
+
+გამოიყენე flex რომ გაალამაზოტ მაქსიმალურად ნავიგაციის მენიუ
+
+გააკეთე ისე, რომ:
+
+menu-მ დაიკავოს მაქსიმალური დარჩენილი სივრცე
+logo და button დარჩეს თავიანთ ზომაზე
+
+გამოიყენე flex-grow -->
+
+<div class="navbar">
+  <nav class="nav-bar">
+  <div class="logo">LOGO</div>
+    <ul class="menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  <button class="nav-btn">Login</button>
+  </nav>
+</div>
+
+<!-- 
+4)გაქვს flex container 3 ელემენტით.
+
+სამივე ელემენტს hover გაუკეთეთ და შეუცვალეთ უკანა ფონის ფერი
+
+მაგრამ hover-ზე მესამე ელემენტი უნდა გაიზარდოს დანარჩენებზე მეტად და დაიკავოს დარჩენილი სივრცე -->
+
+<div class="fxcont">
+  <div class="container-4">
+    <div class="hover-box">1</div>
+    <div class="hover-box">2</div>
+    <div class="hover-box">3</div>
+  </div>
+</div>
+
+<!-- 5)გაქვს flex container და 3 ელემენტი.
+
+ყველა ელემენტს დაუყენე საწყისი ზომა 150px
+
+მაგრამ არ გამოიყენო width
+
+გამოიყენე მხოლოდ flex-basis სამივე მათგანზე ცალ ცალკე -->
+
+
+<!-- 
+6)გაქვს 4 ელემენტი ერთ რიგში.
+
+მოაწყე ისე, რომ:
+
+პირველი იყოს 100px
+მეორე — 200px
+მესამე — 300px
+მეოთხე — 150px
+
+გამოიყენე flex-basis თითოეულზე -->
+<div class="container_">
+  <div class="container-6">
+    <div class="basis-1">100px</div>
+    <div class="basis-2">200px</div>
+    <div class="basis-3">300px</div>
+    <div class="basis-4">150px</div>
+  </div>
+</div>
+
+<!-- 7)კომენტარის სახით ახსენით თუ რა არის flex-shrink ,რა მნშნველობები გადაეცემა მას და რა განსხვავებააა მათ შორის -->
+
+
+
+<!-- 
+8)გაქვს flex container (width: 400px) და 3 ელემენტი.
+
+თითოეულს აქვს flex-basis: 200px
+
+გააკეთე ისე, რომ:
+
+მხოლოდ მეორე ელემენტი არ შემცირდეს
+
+დანარჩენები კი შემცირდნენ ეკრანის დაპატარავებასთან ერთად
+  -->
+
+<div class="conteiner_shrink">
+  <div class="container-8">
+    <div class="shrink"></div>
+    <div class="no-shrink"></div>
+    <div class="shrink"></div>
+  </div>
+</div>
+
+<!-- 9)გაქვს 3 ელემენტი კონტეინერში 
+
+ყველას აქვს ერთნაირი flex-basis
+
+მაგრამ shrink მნიშვნელობები განსხვავებულია:
+პირველი: 1
+მეორე: 2
+მესამე: 3
+
+დააკვირდი როგორ განსხვავებულად მცირდება თითოეული 
+ -->
+
+<div class="container">
+  <div class="container-9">
+    <div class="s1"></div>
+    <div class="s2"></div>
+    <div class="s3"></div>
+  </div>
+</div>
+
+
+<!-- 10)გაქვს flex container პატარა ზომით მაგ 400px და შიგნით რამდენიმე ელემენტი.
+
+ელემენტებს აქვს დიდი flex-basis (მაგ: 300px) თითოეულს
+
+გააკეთე ისე, რომ:
+
+ელემენტები არ შემცირდნენ საერთოდ ანუ არ შეიკუმშნონ
+და გადავიდნენ ახალ ხაზზე ეკრანის შემიცირებასთან ერთად(შეიფუთნონ) -->
+
+
+<div class=container>
+  <div class="container-10">
+    <div>Box 1</div>
+    <div>Box 2</div>
+    <div>Box 3</div>
+  </div>
+</div>
+
+<!-- 11)გაქვს navigation bar:
+
+logo
+menu -> home, cottact , about us ...
+button
+
+გააკეთე ისე, რომ:
+
+პატარა ეკრანზე menu შემცირდეს(შეიკუმშოს უფრო მეტად)
+მაგრამ logo და button მაქსიმალურად შენარჩუნდეს საწყის ზომაზე
+ -->
+
+<div class="">
+    <nav class="nav">
+      <div class="logo"></div>
+      <div class="shrink"></div>
+      <button class="btn"></button>
+    </nav>
+</div>
+
+</body>
+</html>
+</body>
+</html>
